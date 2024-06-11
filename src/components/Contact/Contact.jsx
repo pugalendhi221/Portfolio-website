@@ -30,7 +30,7 @@ const Contact = () => {
             console.log('FAILED...', err);
             alert('Failed to send message, please try again later.   ');
         });
-    };
+    }; 
 
     return (
         <div id="Contact" className='contact-main-container'>
